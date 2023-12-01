@@ -9,6 +9,6 @@ for (let contador = 0; contador < listaDeTeclas.length; contador++){
     const efeito = tecla.classList[1];
     const idAudio = `#som_&{efeito}`;
     tecla.onliclick = function() {
-        tocaSom(idAudio);
+        tocaSom(idAudio)
     };
 }
